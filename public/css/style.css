@@ -1,0 +1,93 @@
+
+.brand-upcomputech{
+    height: 5vh;
+    width: 5vh;
+}
+
+.cards {
+  max-width: 100%;
+  margin: 50;
+  display: grid;
+    gap: 1rem;
+}
+
+.card{
+  display : flex;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+  
+}
+
+.logo-card{
+  width : 100px;
+  height : 100px;
+}
+
+.jasa{
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.pjasa{
+  color: white;
+  
+}
+@media (min-width: 600px) {
+  .cards { grid-template-columns: repeat(2, 1fr); }
+}
+
+@media (min-width: 1080px) {
+  .cards { grid-template-columns: repeat(2, 1fr); }
+}
+
+
+
+.judul{
+  display : flex;
+  justify-content: center;
+  margin-top : 10px;
+   margin-bottom : 10px;
+}
+
+
+h2{
+  color :white;
+}
+
+p{
+  color : white;
+}
+.cards-footer {
+  max-width: 1080px;
+  padding: 50px;
+  margin: 30 auto;
+  display: grid;
+    gap: 1rem;
+}
+
+
+.layanan{
+  text-decoration: none;
+  color : white
+}
+
+@media (min-width: 600px) {
+  .cards-footer { grid-template-columns: repeat(3, 1fr); }
+}
+
+
+.container-footer{
+  background: darkblue;
+}
+
+
+.judul-footer{
+  color :white;
+  font-size : 22px;
+  font-weight: bolder;
+}
+
+.contact{
+  width : 40px;
+}

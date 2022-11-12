@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.logo{
+    height: 60px;
+    width: 60  px;
+    border-radius: 25px;
+}
+
+
+.font-center{
+  display : flex;
+  align-items: center;
+  align-content: center;
+  font-weight: bold;
+}
+
+.content-box{
+  display : flex;
+  justify-content: center;
+}
+
+.content-card{
+  display: flex;
+  justify-content: space-between;
+  justify-items: center;
+}
+.judul{
+  display : flex;
+  justify-content: center;
+  font-weight: bold;
+  color : white;
+}
+.container{
+  display : flex;
+  justify-items: center;
+  justify-content: center;
+
+}
+
+.logo-card{
+  height: 30px;
+  
+}
